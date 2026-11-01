@@ -51,7 +51,7 @@ const SectorShowcase = () => {
                 sectionRefs.current[index] = el;
               }}
               data-index={index}
-              className="h-screen overflow-hidden mb-8 me-8"
+                            className="h-[65vh] overflow-hidden mb-6 me-8 rounded-2xl"
             >
               <img
                 src={section.image_url}
@@ -64,8 +64,7 @@ const SectorShowcase = () => {
 
         {/* المحتوى */}
         <div className="relative ">
-          <div className="sticky top-0 h-screen flex items-center px-8 lg:px-14">
-            
+          <div className="sticky top-24 h-[65vh] flex items-center px-8 lg:px-14">            
             <div
               key={activeSection.id}
               className="w-full animate-fade-up"
