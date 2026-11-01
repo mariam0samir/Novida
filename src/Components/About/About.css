@@ -1,0 +1,15 @@
+.about{
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.haed-about::before{
+    content: "";
+    width: 25px;
+    height: 1px;
+    margin-right: 10px;
+    background-color: #162D77;
+    margin-bottom: 1rem;
+    position: absolute;
+    right: -10px;
+    top: 3%;
+}

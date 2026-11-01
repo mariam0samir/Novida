@@ -1,0 +1,23 @@
+.Contact{
+    background-attachment: fixed;
+    
+    width: 100%;
+    position: relative;
+      background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-image: url(../../assets/ChatGPT\ Image\ Sep\ 17\,\ 2026\,\ 09_29_26\ AM.png);
+}
+.Contact-shadow{
+    background-color:rgba(255,255,255,0.2);
+      position: absolute;
+  inset: 0;
+
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 0;
+}
+.contact-content{
+    z-index: 10;
+    position: relative;
+}

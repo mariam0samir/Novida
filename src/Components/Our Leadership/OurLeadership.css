@@ -1,0 +1,7 @@
+
+.board-card:hover {
+border-top: 2px solid  var(--primary);
+color: var(--primary);
+border-color: var(--primary);
+}
+

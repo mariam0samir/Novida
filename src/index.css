@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+@import "tailwindcss";
+
+@config "../tailwind.config.js";
+
+html,
+body,
+#root {
+font-family: "Tajawal", sans-serif;
+
+box-sizing: border-box;
+  font-family: 'Cairo', sans-serif !important;
+}
+
+
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Tajawal", sans-serif;
+}
+
+.haeder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.haeder::before {
+  content: "";
+  width: 24px;
+  height: 0.5px;
+  background-color: #162D77;
+  display: block;
+  top:-1px;
+
+}
+.card-ser{
+  overflow: hidden;
+
+}
+.card-ser:hover img{
+transform: scale(1.1);
+}

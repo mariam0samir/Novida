@@ -1,0 +1,27 @@
+.Banner{
+    height: 100vh;
+    background-image: url(../../../src/assets/banner.png.png);
+    background-attachment: fixed ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Banner .container {
+  height: 100%;
+}
+.Banner-content {
+  height: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* مساحة الكلام */
+.Banner-text {
+  width: 45%;
+  max-width: 600px;
+
+  direction: rtl;
+  text-align: right;
+}
