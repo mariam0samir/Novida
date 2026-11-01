@@ -1,4 +1,5 @@
 import "./App.css";
+import Preloader from "./Components/Preloader/Preloader.jsx";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -62,6 +63,7 @@ function App() {
 
   return (
     <>
+        <Preloader />
     <ScrollToTop />
     <Navbar/>
      <main> 
