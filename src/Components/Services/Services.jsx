@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { useSectors } from "../../hooks/useContent";
 import { localized } from "../../utils/localized";
@@ -44,7 +45,8 @@ const Services = () => {
             <div className="p-7 flex flex-col flex-1">
             <h3 className="text-primary text-xl text-center font-extrabold pb-3">{title}</h3>
             <p className="text-secondary2 py-2 pb-3 leading-9">{localized(card, "description", i18n.language)}</p>
-            <span className="text-primary font-extrabold cursor-pointer mt-auto"> <a href={`/${card.slug}`}>{t("sectorsSection.discover")}</a >  </span>
+            {/* بيفتح صفحة القطاع: /sectors/technology مثلاً */}
+            <span className="text-primary font-extrabold cursor-pointer mt-auto"> <Link to={`/sectors/${card.slug}`}>{t("sectorsSection.discover")}</Link>  </span>
             </div>
            </div>
             })
