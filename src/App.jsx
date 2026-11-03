@@ -63,8 +63,9 @@ function App() {
 
   return (
     <>
+     <ScrollToTop />
         <Preloader />
-    <ScrollToTop />
+   
     <Navbar/>
      <main> 
       <Routes>
